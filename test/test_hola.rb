@@ -1,6 +1,6 @@
 require 'test/unit'
 require 'hola'
-
+require "polo"
 class HolaTest < Test::Unit::TestCase
   def test_english_hello
     assert_equal "hello world", Hola.hi("english")
@@ -14,3 +14,4 @@ class HolaTest < Test::Unit::TestCase
     assert_equal "hola mundo", Hola.hi("spanish")
   end
 end
+
